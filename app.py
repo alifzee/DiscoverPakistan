@@ -10,7 +10,7 @@ from googletrans import Translator  # Import Translator for Google Translate
 translator = Translator()
 
 # Load data from Excel file for offline mode
-data = pd.read_excel("https://github.com/alifzee/DiscoverPakistan/blob/main/app.py")
+data = pd.read_excel("https://github.com/alifzee/DiscoverPakistan/blob/main/pak.xlsx")
 
 # Simulated offline response using the Excel data
 def get_offline_response(query):
